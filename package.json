@@ -1,0 +1,14 @@
+{
+  "name": "terzaghi-consolidation-service",
+  "version": "1.0.0",
+  "description": "Terzaghi 1D consolidation evaluation service (pore pressure dissipation, average degree of consolidation, settlement)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test test/"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.22.3"
+  }
+}
